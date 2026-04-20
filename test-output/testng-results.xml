@@ -1,27 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-20T11:39:29 IST" name="Suite" finished-at="2026-04-20T11:39:29 IST" duration-ms="113">
+  <suite started-at="2026-04-20T12:46:44 IST" name="Loan" finished-at="2026-04-20T12:46:44 IST" duration-ms="311">
     <groups>
     </groups>
-    <test started-at="2026-04-20T11:39:29 IST" name="Test" finished-at="2026-04-20T11:39:29 IST" duration-ms="113">
+    <test started-at="2026-04-20T12:46:44 IST" name="Personal Loan Test" finished-at="2026-04-20T12:46:44 IST" duration-ms="117">
       <class name="test.TestNG2">
-        <test-method signature="test2()[pri:0, instance:test.TestNG2@5be6e01c]" started-at="2026-04-20T11:39:29 IST" name="test2" finished-at="2026-04-20T11:39:29 IST" duration-ms="3" status="PASS">
+        <test-method signature="test2()[pri:0, instance:test.TestNG2@7880cdf3]" started-at="2026-04-20T12:46:44 IST" name="test2" finished-at="2026-04-20T12:46:44 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
       </class> <!-- test.TestNG2 -->
       <class name="test.TestNG1">
-        <test-method signature="demo()[pri:0, instance:test.TestNG1@1b1473ab]" started-at="2026-04-20T11:39:29 IST" name="demo" finished-at="2026-04-20T11:39:29 IST" duration-ms="21" status="PASS">
+        <test-method signature="demo()[pri:0, instance:test.TestNG1@149e0f5d]" started-at="2026-04-20T12:46:44 IST" name="demo" finished-at="2026-04-20T12:46:44 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method signature="test1()[pri:0, instance:test.TestNG1@1b1473ab]" started-at="2026-04-20T11:39:29 IST" name="test1" finished-at="2026-04-20T11:39:29 IST" duration-ms="5" status="PASS">
+        <test-method signature="test1()[pri:0, instance:test.TestNG1@149e0f5d]" started-at="2026-04-20T12:46:44 IST" name="test1" finished-at="2026-04-20T12:46:44 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
       </class> <!-- test.TestNG1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Personal Loan Test -->
+    <test started-at="2026-04-20T12:46:44 IST" name="Car Loan Test" finished-at="2026-04-20T12:46:44 IST" duration-ms="7">
+      <class name="test.TestNG3">
+        <test-method signature="WebLoginCar()[pri:0, instance:test.TestNG3@291ae]" started-at="2026-04-20T12:46:44 IST" name="WebLoginCar" finished-at="2026-04-20T12:46:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCar -->
+      </class> <!-- test.TestNG3 -->
+    </test> <!-- Car Loan Test -->
+    <test started-at="2026-04-20T12:46:44 IST" name="Home Loan Test" finished-at="2026-04-20T12:46:44 IST" duration-ms="27">
+      <class name="test.TestNG4">
+        <test-method signature="ApiLoginHome()[pri:0, instance:test.TestNG4@5119fb47]" started-at="2026-04-20T12:46:44 IST" name="ApiLoginHome" finished-at="2026-04-20T12:46:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginHome -->
+        <test-method signature="MobileLoginHome()[pri:0, instance:test.TestNG4@5119fb47]" started-at="2026-04-20T12:46:44 IST" name="MobileLoginHome" finished-at="2026-04-20T12:46:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHome -->
+        <test-method signature="WebLoginHome()[pri:0, instance:test.TestNG4@5119fb47]" started-at="2026-04-20T12:46:44 IST" name="WebLoginHome" finished-at="2026-04-20T12:46:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHome -->
+      </class> <!-- test.TestNG4 -->
+    </test> <!-- Home Loan Test -->
+  </suite> <!-- Loan -->
 </testng-results>
