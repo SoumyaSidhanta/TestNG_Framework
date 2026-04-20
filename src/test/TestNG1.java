@@ -10,5 +10,9 @@ public class TestNG1 {
 		System.out.println("Rohit");
 	}
 	
+	@Test
+	public void test1() {
+		System.out.println("Test1");
+	}
 
-}
+} 
