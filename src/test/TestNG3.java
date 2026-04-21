@@ -14,17 +14,17 @@ public class TestNG3 {
 	
 	@Test
 	public void MobileLoginCar() {
-		System.out.println("Appium Code!! for car loan ");
+		System.out.println("Appium Code!! for login car loan ");
 	}
 	
 	@Test
 	public void MobileSigninCar() {
-		System.out.println("Appium Code!! for car loan ");
+		System.out.println("Appium Code!! for signin car loan ");
 	}
 	
 	@Test
 	public void MobileSignoutCar() {
-		System.out.println("Appium Code!! for car loan ");
+		System.out.println("Appium Code!! for signout car loan ");
 	}
 	
 	@Test
