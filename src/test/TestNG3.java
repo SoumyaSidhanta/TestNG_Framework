@@ -18,6 +18,16 @@ public class TestNG3 {
 	}
 	
 	@Test
+	public void MobileSigninCar() {
+		System.out.println("Appium Code!! for car loan ");
+	}
+	
+	@Test
+	public void MobileSignoutCar() {
+		System.out.println("Appium Code!! for car loan ");
+	}
+	
+	@Test
 	public void ApiLoginCar() {
 		System.out.println("Rest API Code!! for car loan ");
 	}

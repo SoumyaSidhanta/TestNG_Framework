@@ -5,7 +5,11 @@
 
   <test thread-count="5" name="Personal Loan Test">
     <classes>
-      <class name="test.TestNG1"/>
+      <class name="test.TestNG1">
+      	<methods>
+      		<include name ="test1"/>
+      	</methods>
+      </class>
       <class name="test.TestNG2"/>
     </classes>
   </test> 
@@ -14,7 +18,7 @@
     <classes>
       <class name="test.TestNG3">
       	<methods> 
-      		<exclude name="MobileLoginCar"/>
+      		<exclude name="Mobile.*"/>
      		<exclude name="ApiLoginCar"/>
       	</methods>
       </class>
