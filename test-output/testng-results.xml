@@ -1,63 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-21T11:08:19 IST" name="Loan" finished-at="2026-04-21T11:08:19 IST" duration-ms="170">
+  <suite started-at="2026-04-22T19:07:36 IST" name="Loan" finished-at="2026-04-22T19:07:37 IST" duration-ms="148">
     <groups>
+      <group name="Smoke">
+        <method signature="TestNG1.demo()[pri:0, instance:test.TestNG1@13e39c73]" name="demo" class="test.TestNG1"/>
+        <method signature="TestNG3.ApiLoginCar()[pri:0, instance:test.TestNG3@63355449]" name="ApiLoginCar" class="test.TestNG3"/>
+        <method signature="TestNG3.MobileSignoutCar()[pri:0, instance:test.TestNG3@63355449]" name="MobileSignoutCar" class="test.TestNG3"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-04-21T11:08:19 IST" name="Personal Loan Test" finished-at="2026-04-21T11:08:19 IST" duration-ms="170">
-      <class name="test.TestNG4">
-        <test-method signature="ApiLoginHome()[pri:0, instance:test.TestNG4@67a20f67]" started-at="2026-04-21T11:08:19 IST" name="ApiLoginHome" finished-at="2026-04-21T11:08:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApiLoginHome -->
-        <test-method signature="MobileLoginHome()[pri:0, instance:test.TestNG4@67a20f67]" started-at="2026-04-21T11:08:19 IST" name="MobileLoginHome" finished-at="2026-04-21T11:08:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginHome -->
-        <test-method signature="WebLoginHome()[pri:0, instance:test.TestNG4@67a20f67]" started-at="2026-04-21T11:08:19 IST" name="WebLoginHome" finished-at="2026-04-21T11:08:19 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginHome -->
-      </class> <!-- test.TestNG4 -->
+    <test started-at="2026-04-22T19:07:36 IST" name="Regression" finished-at="2026-04-22T19:07:37 IST" duration-ms="148">
       <class name="test.TestNG3">
-        <test-method signature="ApiLoginCar()[pri:0, instance:test.TestNG3@2667f029]" started-at="2026-04-21T11:08:19 IST" name="ApiLoginCar" finished-at="2026-04-21T11:08:19 IST" duration-ms="3" status="PASS">
+        <test-method signature="ApiLoginCar()[pri:0, instance:test.TestNG3@63355449]" started-at="2026-04-22T19:07:36 IST" name="ApiLoginCar" finished-at="2026-04-22T19:07:36 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApiLoginCar -->
-        <test-method signature="MobileLoginCar()[pri:0, instance:test.TestNG3@2667f029]" started-at="2026-04-21T11:08:19 IST" name="MobileLoginCar" finished-at="2026-04-21T11:08:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginCar -->
-        <test-method signature="MobileSigninCar()[pri:0, instance:test.TestNG3@2667f029]" started-at="2026-04-21T11:08:19 IST" name="MobileSigninCar" finished-at="2026-04-21T11:08:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileSigninCar -->
-        <test-method signature="MobileSignoutCar()[pri:0, instance:test.TestNG3@2667f029]" started-at="2026-04-21T11:08:19 IST" name="MobileSignoutCar" finished-at="2026-04-21T11:08:19 IST" duration-ms="2" status="PASS">
+        <test-method signature="MobileSignoutCar()[pri:0, instance:test.TestNG3@63355449]" started-at="2026-04-22T19:07:37 IST" name="MobileSignoutCar" finished-at="2026-04-22T19:07:37 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileSignoutCar -->
-        <test-method signature="WebLoginCar()[pri:0, instance:test.TestNG3@2667f029]" started-at="2026-04-21T11:08:19 IST" name="WebLoginCar" finished-at="2026-04-21T11:08:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginCar -->
       </class> <!-- test.TestNG3 -->
-      <class name="test.TestNG2">
-        <test-method signature="test2()[pri:0, instance:test.TestNG2@353d0772]" started-at="2026-04-21T11:08:19 IST" name="test2" finished-at="2026-04-21T11:08:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- test.TestNG2 -->
       <class name="test.TestNG1">
-        <test-method signature="demo()[pri:0, instance:test.TestNG1@6e4784bc]" started-at="2026-04-21T11:08:19 IST" name="demo" finished-at="2026-04-21T11:08:19 IST" duration-ms="26" status="PASS">
+        <test-method signature="demo()[pri:0, instance:test.TestNG1@13e39c73]" started-at="2026-04-22T19:07:36 IST" name="demo" finished-at="2026-04-22T19:07:36 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method signature="test1()[pri:0, instance:test.TestNG1@6e4784bc]" started-at="2026-04-21T11:08:19 IST" name="test1" finished-at="2026-04-21T11:08:19 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
       </class> <!-- test.TestNG1 -->
-    </test> <!-- Personal Loan Test -->
+    </test> <!-- Regression -->
   </suite> <!-- Loan -->
 </testng-results>
