@@ -3,10 +3,10 @@
 
 <suite name="Loan">
 
-<parameter name="URL" value = "qaAutomation.com"/>
-
-
   <test thread-count="5" name="Personal Loan Test">
+  <parameter name="URL" value = "personalLoan.com"/>
+    <parameter name="APIkey/username" value = "987654321"/>
+    
     <classes>
       <class name="test.TestNG1">
       	<methods>
@@ -18,6 +18,7 @@
   </test> 
   
   <test thread-count="5" name="Car Loan Test">
+  <parameter name="URL" value = "carLoan.com"/>
     <classes>
       <class name="test.TestNG3">
       	<methods> 
@@ -29,6 +30,7 @@
   </test>
   
   <test thread-count="5" name="Home Loan Test">
+  <parameter name="URL" value = "homeLoan.com"/>
     <classes>
       <class name="test.TestNG4"/>
     </classes>

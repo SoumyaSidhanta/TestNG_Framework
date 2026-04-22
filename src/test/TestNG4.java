@@ -25,7 +25,7 @@ public class TestNG4 {
 		System.out.println("Selenium Code!! for homeloan");
 	}
 	
-	@Test
+	@Test(enabled = false) //skip if any test having error
 	public void MobileLoginHome() {
 		System.out.println("Appium Code!! for homeloan");
 	}

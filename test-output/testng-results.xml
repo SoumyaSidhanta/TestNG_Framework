@@ -1,32 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
+<testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-22T19:07:36 IST" name="Loan" finished-at="2026-04-22T19:07:37 IST" duration-ms="148">
+  <suite started-at="2026-04-22T20:15:52 IST" name="Loan" finished-at="2026-04-22T20:15:52 IST" duration-ms="322">
     <groups>
-      <group name="Smoke">
-        <method signature="TestNG1.demo()[pri:0, instance:test.TestNG1@13e39c73]" name="demo" class="test.TestNG1"/>
-        <method signature="TestNG3.ApiLoginCar()[pri:0, instance:test.TestNG3@63355449]" name="ApiLoginCar" class="test.TestNG3"/>
-        <method signature="TestNG3.MobileSignoutCar()[pri:0, instance:test.TestNG3@63355449]" name="MobileSignoutCar" class="test.TestNG3"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-04-22T19:07:36 IST" name="Regression" finished-at="2026-04-22T19:07:37 IST" duration-ms="148">
-      <class name="test.TestNG3">
-        <test-method signature="ApiLoginCar()[pri:0, instance:test.TestNG3@63355449]" started-at="2026-04-22T19:07:36 IST" name="ApiLoginCar" finished-at="2026-04-22T19:07:36 IST" duration-ms="4" status="PASS">
+    <test started-at="2026-04-22T20:15:52 IST" name="Personal Loan Test" finished-at="2026-04-22T20:15:52 IST" duration-ms="110">
+      <class name="test.TestNG2">
+        <test-method is-config="true" signature="preTestExecution()[pri:0, instance:test.TestNG2@50b472aa]" started-at="2026-04-22T20:15:52 IST" name="preTestExecution" finished-at="2026-04-22T20:15:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ApiLoginCar -->
-        <test-method signature="MobileSignoutCar()[pri:0, instance:test.TestNG3@63355449]" started-at="2026-04-22T19:07:37 IST" name="MobileSignoutCar" finished-at="2026-04-22T19:07:37 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- preTestExecution -->
+        <test-method signature="test2(java.lang.String,java.lang.String)[pri:0, instance:test.TestNG2@50b472aa]" started-at="2026-04-22T20:15:52 IST" name="test2" finished-at="2026-04-22T20:15:52 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalLoan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileSignoutCar -->
-      </class> <!-- test.TestNG3 -->
+        </test-method> <!-- test2 -->
+      </class> <!-- test.TestNG2 -->
       <class name="test.TestNG1">
-        <test-method signature="demo()[pri:0, instance:test.TestNG1@13e39c73]" started-at="2026-04-22T19:07:36 IST" name="demo" finished-at="2026-04-22T19:07:36 IST" duration-ms="28" status="PASS">
+        <test-method signature="test1()[pri:0, instance:test.TestNG1@3f197a46]" started-at="2026-04-22T20:15:52 IST" name="test1" finished-at="2026-04-22T20:15:52 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo -->
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="lastExc()[pri:0, instance:test.TestNG1@3f197a46]" started-at="2026-04-22T20:15:52 IST" name="lastExc" finished-at="2026-04-22T20:15:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExc -->
       </class> <!-- test.TestNG1 -->
-    </test> <!-- Regression -->
+    </test> <!-- Personal Loan Test -->
+    <test started-at="2026-04-22T20:15:52 IST" name="Car Loan Test" finished-at="2026-04-22T20:15:52 IST" duration-ms="11">
+      <class name="test.TestNG3">
+        <test-method signature="WebLoginCar()[pri:0, instance:test.TestNG3@6e20b53a]" started-at="2026-04-22T20:15:52 IST" name="WebLoginCar" finished-at="2026-04-22T20:15:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCar -->
+      </class> <!-- test.TestNG3 -->
+    </test> <!-- Car Loan Test -->
+    <test started-at="2026-04-22T20:15:52 IST" name="Home Loan Test" finished-at="2026-04-22T20:15:52 IST" duration-ms="39">
+      <class name="test.TestNG4">
+        <test-method is-config="true" signature="BeforeSut()[pri:0, instance:test.TestNG4@359f7cdf]" started-at="2026-04-22T20:15:52 IST" name="BeforeSut" finished-at="2026-04-22T20:15:52 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSut -->
+        <test-method is-config="true" signature="Bc()[pri:0, instance:test.TestNG4@359f7cdf]" started-at="2026-04-22T20:15:52 IST" name="Bc" finished-at="2026-04-22T20:15:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm()[pri:0, instance:test.TestNG4@359f7cdf]" started-at="2026-04-22T20:15:52 IST" name="Bm" finished-at="2026-04-22T20:15:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="ApiLoginHome()[pri:0, instance:test.TestNG4@359f7cdf]" started-at="2026-04-22T20:15:52 IST" name="ApiLoginHome" finished-at="2026-04-22T20:15:52 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginHome -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:test.TestNG4@359f7cdf]" started-at="2026-04-22T20:15:52 IST" name="Am" finished-at="2026-04-22T20:15:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm()[pri:0, instance:test.TestNG4@359f7cdf]" started-at="2026-04-22T20:15:52 IST" name="Bm" finished-at="2026-04-22T20:15:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="WebLoginHome()[pri:0, instance:test.TestNG4@359f7cdf]" started-at="2026-04-22T20:15:52 IST" name="WebLoginHome" finished-at="2026-04-22T20:15:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHome -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:test.TestNG4@359f7cdf]" started-at="2026-04-22T20:15:52 IST" name="Am" finished-at="2026-04-22T20:15:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:test.TestNG4@359f7cdf]" started-at="2026-04-22T20:15:52 IST" name="Ac" finished-at="2026-04-22T20:15:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+      </class> <!-- test.TestNG4 -->
+      <class name="test.TestNG1">
+        <test-method is-config="true" signature="AfterSut()[pri:0, instance:test.TestNG1@3f197a46]" started-at="2026-04-22T20:15:52 IST" name="AfterSut" finished-at="2026-04-22T20:15:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSut -->
+      </class> <!-- test.TestNG1 -->
+    </test> <!-- Home Loan Test -->
   </suite> <!-- Loan -->
 </testng-results>

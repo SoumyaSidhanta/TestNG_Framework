@@ -25,7 +25,7 @@ public class TestNG1 {
 		System.out.println("At the bottom");
 	}
 	
-	@Test(groups = "Smoke")
+	@Test(groups ={"Smoke"})
 	public void demo() {
 		System.out.println("Rohit");
 	}
