@@ -21,20 +21,20 @@ public class TestNG3 {
 		System.out.println(password);
 	}
 	
-//	@Test(timeOut = 4000)
-//	public void MobileSigninCar() {
-//		System.out.println("Appium Code!! for signin car loan ");
-//	}
-//	
-//	@Test(groups = {"Smoke"})
-//	public void MobileSignoutCar() {
-//		System.out.println("Appium Code!! for signout car loan ");
-//	}
-//	
-//	@Test(dependsOnMethods = {"WebLoginCar","MobileSignoutCar"})
-//	public void ApiLoginCar() {
-//		System.out.println("Rest API Code!! for car loan ");
-//	}
+	@Test(timeOut = 4000)
+	public void MobileSigninCar() {
+		System.out.println("Appium Code!! for signin car loan ");
+	}
+	
+	@Test(groups = {"Smoke"})
+	public void MobileSignoutCar() {
+		System.out.println("Appium Code!! for signout car loan ");
+	}
+	
+	@Test(dependsOnMethods = {"WebLoginCar","MobileSignoutCar"})
+	public void ApiLoginCar() {
+		System.out.println("Rest API Code!! for car loan ");
+	}
 	
 	
 	/*DataProvider Annotation

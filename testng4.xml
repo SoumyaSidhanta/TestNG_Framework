@@ -3,37 +3,42 @@
 
 <suite name="Loan">
 
-  <test thread-count="5" name="Personal Loan Test">
-  <parameter name="URL" value = "personalLoan.com"/>
-    <parameter name="APIkey/username" value = "987654321"/>
-    
-    <classes>
-      <class name="test.TestNG1">
-      	<methods>
-      		<include name ="test1"/>
-      	</methods>
-      </class>
-      <class name="test.TestNG2"/>
-    </classes>
-  </test> 
-  
-  <test thread-count="5" name="Car Loan Test">
-  <parameter name="URL" value = "carLoan.com"/>
-    <classes>
-      <class name="test.TestNG3">
-      	<methods> 
-      		<exclude name="Mobile.*"/>
-     		<exclude name="ApiLoginCar"/>
-      	</methods>
-      </class>
-    </classes>
-  </test>
-  
-  <test thread-count="5" name="Home Loan Test">
-  <parameter name="URL" value = "homeLoan.com"/>
-    <classes>
-      <class name="test.TestNG4"/>
-    </classes>
-  </test>
-  
+	<listeners>
+		<listener class-name="test.TestNG5Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="Personal Loan Test">
+
+		<parameter name="URL" value="personalLoan.com" />
+		<parameter name="APIkey/username" value="987654321" />
+
+		<classes>
+			<class name="test.TestNG1">
+				<methods>
+					<include name="test1" />
+				</methods>
+			</class>
+			<class name="test.TestNG2" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Car Loan Test">
+		<parameter name="URL" value="carLoan.com" />
+		<classes>
+			<class name="test.TestNG3">
+				<methods>
+					<exclude name="Mobile.*" />
+					<exclude name="ApiLoginCar" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Home Loan Test">
+		<parameter name="URL" value="homeLoan.com" />
+		<classes>
+			<class name="test.TestNG4" />
+		</classes>
+	</test>
+
 </suite>

@@ -3,12 +3,16 @@
 
 <suite name="Loan">
 
-  <test thread-count="5" name="Personal Loan Test">
-  	
-  	<packages>
-  		<package name = "test"/>
-  	</packages>
-  	
-  </test> 
-  
+	<listeners>
+		<listener class-name="test.TestNG5Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="Personal Loan Test">
+
+		<packages>
+			<package name="test" />
+		</packages>
+
+	</test>
+
 </suite>
