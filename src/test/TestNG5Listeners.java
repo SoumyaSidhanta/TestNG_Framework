@@ -24,7 +24,8 @@ public class TestNG5Listeners implements ITestListener {
 		//TestCase - Suppose my RestAPI response code is 400 or above
 		//restAPI code 
 		
-		System.out.println("testng.xml fails because of no test level parameterization is declared.");
+		System.out.println("testng.xml fails because of no test level parameterization is declared. "
+		+ "Test Method is: " +result.getName());
 		 
 	}
 
